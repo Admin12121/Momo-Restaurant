@@ -1,0 +1,65 @@
+.section_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 86px;
+    padding: 64px 156px;
+    height: 100%;
+    font-family: "rene-bieder-milliard-medium";
+
+    .image_section {
+        width: 456px;
+        display: flex;
+        height: 505px;
+        padding: 0 26px;
+        background: #0C6967;
+        border-radius: 50% 50% 0 0;
+
+        img {
+            height: 598px;
+            width: 400px;
+            position: relative;
+            top: -93px;
+        }
+
+    }
+
+    .text_sectioin {
+        display: flex;
+        width: 552px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+
+        h1 {
+            font-size: 2.5vw;
+
+            span {
+                color: #D95103;
+            }
+        }
+
+        p {
+            color: var(--neutral-n-200, #6B788E);
+            font-size: 1vw;
+            font-style: normal;
+            font-weight: 100;
+            line-height: 160%;
+            /* 32px */
+        }
+
+        button {
+            display: flex;
+            background: #0c6967;
+            border: none;
+            color: #fff;
+            border-radius: 100px;
+            padding: 20px 40px;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+        }
+
+    }
+
+}

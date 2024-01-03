@@ -1,0 +1,77 @@
+.recipes_wrapper {
+    display: inline-flex;
+    padding: 64px 156px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    height: 100%;
+    width: 100%;
+    font-family: "rene-bieder-milliard-medium";
+
+    .title_text_wrapper {
+        display: flex;
+        text-align: center;
+        gap: 16px;
+        flex-direction: column;
+
+        h1 {
+            font-size: 3vw;
+
+            span {
+                color: #D95103;
+            }
+        }
+
+        p {
+            color: #6B788E;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%;
+        }
+    }
+
+    .switch_wrapper {
+        display: flex;
+        padding: 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+
+        .links_wrapper {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            // flex: 1 0 0;
+            align-self: stretch;
+
+            a {
+                text-decoration: none;
+                display: flex;
+                padding: 16px 48px;
+                color: #6B788E;
+                justify-content: center;
+                align-items: center;
+                gap: 8px;
+                border-radius: 100px;
+            }
+        }
+    }
+
+    // .momo_image_wrapper{
+
+    // }
+
+    Button {
+        display: flex;
+        background: #0c6967;
+        border: none;
+        color: #fff;
+        border-radius: 100px;
+        padding: 20px 40px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+}

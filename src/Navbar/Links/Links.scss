@@ -1,0 +1,26 @@
+.links {
+    font-family: "rene-bieder-milliard-medium";
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    // flex: 1 0 0;
+    align-self: stretch;
+    
+    span {
+        text-decoration: none;
+        display: flex;
+        padding: 8px 12px;
+        align-items: center;
+        gap: 2px;
+        cursor: pointer;
+        .ink{
+            color: #6B788E;
+
+        }
+    }
+
+    @media (max-width: 1400px) {
+        // Styles that are applied when the screen width is less than 1400px
+        display: none; // or any other styling for display
+      }
+}

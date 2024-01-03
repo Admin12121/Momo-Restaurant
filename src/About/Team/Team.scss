@@ -1,0 +1,87 @@
+.Team_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px 156px;
+    gap: 40px;
+    font-family: "rene-bieder-milliard-medium";
+
+    .tem_text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        h1 {
+            font-size: 2vw;
+
+            span {
+                color: #D95103;
+            }
+        }
+
+        p {
+            color: #0C6967;
+
+        }
+
+    }
+
+    .Team_members {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+        span {
+            display: flex;
+            width: 360px;
+            height: 500px;
+            border-radius: 8px;
+
+            img {
+                width: 360px;
+                border-radius: 8px;
+                height: 500px;
+                object-fit: cover;
+
+            }
+
+            .Absol {
+                position: absolute;
+                background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);
+                align-items: end;
+                color: #fff;
+                padding: 30px;
+            }
+        }
+    }
+
+    .switch_buttons {
+        display: flex;
+        align-items: flex-end;
+        justify-content: end;
+        position: relative;
+        right: -40%;
+
+        .slider_button {
+            display: flex;
+            align-items: end;
+            gap: 20px;
+            width: 100%;
+
+            span {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid #8b8b8ba1;
+                border-radius: 100%;
+                width: 35px;
+                height: 35px;
+                cursor: pointer;
+            }
+        }
+    }
+
+}

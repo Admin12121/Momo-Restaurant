@@ -1,0 +1,90 @@
+.Ceo_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    .blur_text_wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 60%;
+        height: 100vh;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .drop_back_text{
+            background: rgba(0, 0, 0, 0.60);
+            backdrop-filter: blur(10px);
+            position: absolute;
+            height: 100vh;
+            width: 60%;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            color: #fff;
+            padding: 150px 250px 150px 130px;
+            font-family: "rene-bieder-milliard-medium";
+            gap: 90px;
+
+            .upper_span{
+                gap: 50px;
+                font-family: "rene-bieder-milliard-light";
+                letter-spacing: 1px;
+                line-height: 150%;
+            }
+            span{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                h1{
+                    font-size: 2vw;
+                    font-weight: bolder;
+                }
+                h2{
+                    font-size: 1.8vw;
+
+                }
+            }
+            .slider{
+                display: flex;
+                width: 500px;
+                position: absolute;
+                bottom: 10%;
+                right: -40%;
+                .slider_button{
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    span{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: 1px solid #ffffffa1;
+                        border-radius: 100%;
+                        width: 45px;
+                        height: 45px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+    }
+    .ceo_image{
+        width: 40%;
+        height: 100vh;
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            
+        }
+    }
+}

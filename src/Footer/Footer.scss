@@ -1,0 +1,118 @@
+.footer_section{
+    height: 20vh;
+    width: 100%;
+
+    .footer_wrapper {
+        display: flex;
+        padding: 56px 156px 20px 156px;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        align-self: stretch;
+
+        .footer_items {
+            display: flex;
+            align-items: flex-start;
+            gap: 120px;
+            align-self: stretch;
+            width: 100%;
+            padding: 0 20px 40px 20px;
+            border-bottom: 1px solid #888888;
+
+
+            .footer_desc{
+                display: flex;
+                padding: 0px 80px 16px 0px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 12px;
+                flex: 1 0 0;
+                align-self: stretch;
+                width: 35%;
+
+                .logo {
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    overflow: hidden;
+                    width: 160px;
+                    img{
+                        background: #fff;
+                        z-index: 2;
+                    }
+                    span {
+                        color: #0C6967;
+                        font-family: "rene-bieder-milliard-medium";
+                        font-size: 25px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 120%;
+                        z-index: 1;
+                    }
+                }
+
+                .desc{
+                    font-family: 'rene-bieder-milliard-light';
+                    color: #888888;
+                }
+            }
+
+            .footer_links{
+                .footer_link_header{
+                    display: flex;
+                    justify-content: center;
+                    gap: 80px;
+    
+                    .link_link{
+                        display: flex;
+                        align-items: flex-start;
+                        gap: 15px;
+                        flex-direction: column;
+                        h1{
+                            color: #0C6967;
+                            font-family: "rene-bieder-milliard-medium";
+                        }
+                        span{
+                            display: flex;
+                            align-items: flex-start;
+                            flex-direction: column;
+                            gap: 10px;
+                            
+                            a{
+                                font-family: "rene-bieder-milliard-medium";
+                                color: #252D43;
+                                font-size: .9vw;
+                                
+                            }
+                        }
+                    }
+    
+                }
+            }
+
+            .footer_social_links{
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 20px;
+
+                h1{
+                    color: #0C6967;
+                    font-family: "rene-bieder-milliard-medium";
+                }
+                .social_link{
+                    display: flex;
+                    font-size: 2vw;
+                    color: #A6AEBB;
+                    gap: 10px;
+                }
+            }
+        }
+
+        span{
+            p{
+                font-family: "rene-bieder-milliard-medium";
+            }
+        }
+    }
+}

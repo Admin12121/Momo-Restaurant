@@ -1,0 +1,127 @@
+.home_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    font-family: "rene-bieder-milliard-medium";
+    
+    .heading_text {
+        // display: inline-flex;
+        // flex-direction: column;
+        // align-items: flex-start;
+        // gap: 48px;
+        padding: 10% 0 10% 10%;
+        width: 60%;
+
+        p {
+            color: #6B788E;
+            font-size: 1.3vw;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            letter-spacing: 1.92px;
+
+        }
+
+
+        h1 {
+            font-size: 5vw;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+
+            /* 73.2px */
+            #one {
+                color: #fff;
+                font-size: 5.6vw;
+            }
+
+            img {
+                position: absolute;
+                z-index: -1;
+                scale: 1.4;
+                margin: 15px 0 0 15px;
+
+            }
+
+            #restaurant {
+                color: #d95103;
+            }
+        }
+
+        #more {
+            color: #000;
+
+            span {
+                color: #d95103;
+            }
+        }
+
+        button {
+            display: flex;
+            background: #0c6967;
+            border: none;
+            color: #fff;
+            border-radius: 100px;
+            padding: 20px 40px;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            margin: 48px 0 0 0;
+        }
+    }
+
+    .image_wrapper {
+        width: 40%;
+        .back {
+
+            .circle{
+                background: #d95103;
+                height: 750px;
+                position: relative;
+                display: flex;
+                align-items: center;
+                width: 750px;
+                z-index: -9;
+                margin: 0 0 0 250px;
+                border-radius: 100%;
+
+                span{
+                    position: absolute;
+                    left: -250px;
+                    
+                    img {
+                        width: 500px;
+                    }
+                }
+
+
+                &::before{
+                    content: "";
+                    width: 200px;
+                    height: 200px;
+                    background: radial-gradient(#eeeeee 22%, transparent 25%);
+                    background-size: 25px 25px;
+                    background-position: 0px 70px;
+                    position: absolute;
+                    left: 90px;
+                    /* z-index: -5; */
+                    bottom: 160px;
+                }
+
+                &::after{
+                    content: "";
+                    width: 200px;
+                    height: 200px;
+                    background: radial-gradient(#000 22%, transparent 25%);
+                    background-size: 25px 25px;
+                    background-position: 0px 70px;
+                    position: absolute;
+                    left: -290px;
+                    top: 160px;
+                    z-index:-5 ;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.Service_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .Services_wrapper {
+        display: flex;
+        padding: 64px 156px;
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+        font-family: "rene-bieder-milliard-medium";
+    
+        .Service_card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+    
+            img{
+                height: 100px;
+            }
+            h1{
+                font-size: 2.5vw;
+            }
+            p{
+                font-size: 1vw;
+                text-align: center;
+                color: #252D43;
+            }
+            
+        }
+    }
+    button{
+        display: flex;
+        background: #0c6967;
+        border: none;
+        color: #fff;
+        border-radius: 100px;
+        padding: 20px 40px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+}

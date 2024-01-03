@@ -1,0 +1,72 @@
+#map{
+    height: 70vh;
+    .map_wrapper {
+        width: 100%;
+        padding: 0px 0;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    
+        .map_mapping {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+    
+            .map_pointer {
+    
+                position: relative;
+                width: 500px;
+                height: 100px;
+                background: #fff;
+                text-align: center;
+                line-height: 50px;
+                border-radius: 16px;
+                box-shadow: 0px 0.221px 2.795px 0px rgba(0, 0, 0, 0.01), 0px 0.532px 6.717px 0px rgba(0, 0, 0, 0.02), 0px 1.002px 12.647px 0px rgba(0, 0, 0, 0.03), 0px 1.787px 22.56px 0px rgba(0, 0, 0, 0.03), 0px 3.342px 42.195px 0px rgba(0, 0, 0, 0.04), 0px 8px 101px 0px rgba(0, 0, 0, 0.05);
+    
+                &::after {
+    
+                    content: '';
+                    position: absolute;
+                    width: 20px;
+                    height: 20px;
+                    border-top: transparent;
+                    border-left: transparent;
+                    border-right: 1px solid #fff;
+                    border-bottom: 1px solid #fff;
+                    box-shadow: 0px 0.221px 2.795px 0px rgba(0, 0, 0, 0.0), 0px 0.532px 6.717px 0px rgba(0, 0, 0, 0.0), 0px 1.002px 12.647px 0px rgba(0, 0, 0, 0.0), 0px 1.787px 22.56px 0px rgba(0, 0, 0, 0.03), 0px 3.342px 42.195px 0px rgba(0, 0, 0, 0.04), 0px 8px 101px 0px rgba(0, 0, 0, 0.05);
+                    bottom: -10px;
+                    left: calc(50% - 15px);
+                    background: #fff;
+                    transform: rotate(-135deg);
+    
+                }
+                h1{
+                    font-family: "rene-bieder-milliard-light";
+                    font-size: 1.3vw;
+                }
+                span{
+                    font-family: "rene-bieder-milliard-light";
+                    color: blue;
+                    font-weight: 900;
+                    cursor: pointer;
+                }
+            }
+    
+            #pointer {
+                position: relative;
+                bottom: -20px;
+                font-size: 2vw;
+                color: red;
+            }
+        }
+    }
+}

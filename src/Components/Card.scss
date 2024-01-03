@@ -1,0 +1,23 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    img{
+        width: 250px;
+    }
+
+    .card-details{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .price{
+            color: #D95103;
+            font-size: 1.3vw;
+            font-weight: 600;
+        }
+    }
+
+}
