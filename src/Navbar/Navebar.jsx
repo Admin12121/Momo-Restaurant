@@ -64,7 +64,7 @@ const Navebar = () => {
           >
             <SiTiktok />
           </motion.span>
-          <Button text="Contact Us" />
+          <Link to="/contact"><motion.button whileHover={{scale:1.1}} whileTap={{scale:.9}} transition={{type:"spring", duration:.5 }}>Contact Us</motion.button></Link>
         </div>
       </motion.div>
     </>

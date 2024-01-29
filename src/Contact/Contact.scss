@@ -1,0 +1,214 @@
+.Conatct_Desc_wrapper {
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+    .text_area {
+        padding: 64px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        h1 {
+            font-size: 5vw;
+            font-weight: 400;
+            font-family: "allura-regular";
+            color: #0C6967;
+        }
+
+        p {
+            font-family: "rene-bieder-milliard-light";
+            color: rgba(72, 72, 72, 0.5333333333);
+
+        }
+
+        .childspan {
+            font-size: 3vw;
+            font-family: "rene-bieder-milliard-medium";
+
+            span {
+                color: #D95103;
+            }
+        }
+    }
+
+    .box_area {
+        display: flex;
+        align-items: flex-start;
+        gap: 24px;
+
+        .details_box {
+            display: flex;
+            width: 360px;
+            height: 233px;
+            padding: 40px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 40px;
+            border-radius: 16px;
+            box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.03), 2px 2px 7px 0px rgba(0, 0, 0, 0.03), 9px 10px 13px 0px rgba(0, 0, 0, 0.03), 19px 21px 17px 0px rgba(0, 0, 0, 0.02), 34px 38px 21px 0px rgba(0, 0, 0, 0.00), 54px 60px 22px 0px rgba(0, 0, 0, 0.00);
+            font-family: "rene-bieder-milliard-medium";
+            text-align: start;
+
+            span {
+                display: flex;
+                gap: 10px;
+                color: #D95103;
+
+                span {
+                    color: #000;
+                }
+            }
+
+            .details_box_footer {
+                font-style: italic;
+                width: 100%;
+
+                span {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    p {
+                        color: #0C6967;
+                        font-style: normal;
+
+                        &:nth-child(2) {
+                            color: #000;
+                            font-style: italic;
+                        }
+                    }
+
+                    span {
+                        display: flex;
+                        flex-direction: column;
+                        color: #000;
+
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.Contact_Form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    .Form_image {
+        width: 50%;
+        height: 100%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .form_padd {
+        height: 100%;
+        width: 50%;
+        padding: 48px 156px 48px 64px;
+        background-color: #FAFBFB;
+        .contact_form {
+            background-color: #fff;
+            display: flex;
+            padding: 40px 24px;
+            flex-direction: column;
+            gap: 15px;
+            flex: 1 0 0;
+            border-radius: 16px;
+
+            span {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+            }
+
+            label {
+                font-family: "rene-bieder-milliard-light";
+            }
+
+            input {
+                display: flex;
+                height: 45px;
+                padding: 16px 10px;
+                align-items: center;
+                align-self: stretch;
+                border-radius: 8px;
+                width: 100%;
+                border: 1px solid #DFE2E6;
+            }
+
+            .user_name {
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+
+                .hdr {
+                    width: 50%;
+                }
+            }
+
+            .input-group {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+
+                select {
+                    display: flex;
+                    height: 50px;
+                    padding: 16px 10px;
+                    align-items: center;
+                    align-self: stretch;
+                    border-radius: 8px;
+                    width: 100%;
+                    color: #888888;
+                    border: 1px solid #DFE2E6;
+
+                    .option {
+                        display: flex;
+                        height: 50px;
+                        padding: 16px 0;
+                        align-items: center;
+                        align-self: stretch;
+                        border-radius: 8px;
+                        width: 100%;
+                        border: 1px solid #DFE2E6;
+                    }
+                }
+            }
+
+            textarea {
+                display: flex;
+                height: 100px;
+                padding: 16px 10px;
+                align-items: center;
+                align-self: stretch;
+                border-radius: 8px;
+                width: 100%;
+                border: 1px solid #DFE2E6;
+            }
+
+            button {
+                display: flex;
+                width: 40%;
+                border: none;
+                color: #fff;
+                padding: 18px 22px;
+                justify-content: center;
+                align-items: center;
+                gap: 8px;
+                border-radius: 100px;
+                background: #0C6967;
+            }
+        }
+    }
+}
