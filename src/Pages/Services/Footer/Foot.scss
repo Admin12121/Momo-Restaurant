@@ -1,0 +1,26 @@
+.services_footer {
+    display: flex;
+    padding: 0 100px 80px 100px;
+    font-family: "rene-bieder-milliard-medium";
+    span {
+        text-align: center;
+        border-radius: 24px;
+        background:  #F5F6F7;
+        display: flex;
+        gap: 30px;
+        padding:  10px 64px 30px 64px;
+        flex-direction: column;
+        align-items: center;
+        button {
+            display: flex;
+            background: #0c6967;
+            border: none;
+            color: #fff;
+            border-radius: 100px;
+            padding: 20px 40px;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+        }
+    }
+}

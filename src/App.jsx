@@ -1,12 +1,12 @@
 import React from "react";
-import "./App.scss";
-import Navebar from "./Navbar/Navebar";
-import Dashboard from "./Dashboard/Dashboard";
-import Footer from "./Footer/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import About from "./About/About";
-import Contact from "./Contact/Contact";
-import Services from "./Services/Services";
+import Navebar from "./Components/Navbar/Navebar";
+import Dashboard from "./Pages/Dashboard/Dashboard";
+import Footer from "./Components/Footer/Footer";
+import About from "./Pages/About/About";
+import Contact from "./Pages/Contact/Contact";
+import Services from "./Pages/Services/Services";
+import "./App.scss";
 
 const App = () => {
   return (

@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'allura-regular';
+    src: url("../../../assets/Allura-Regular.otf") format('opentype');
+}
+
+.first_Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 100px;
+    height: 100%;
+    width: 100%;
+    gap: 200px;
+    font-family: "rene-bieder-milliard-light";
+
+    .about_box {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 70px;
+        padding: 25px;
+
+        span {
+            h1 {
+                font-family: "allura-regular";
+                color: #0C6967;
+                font-size: 5vw;
+                font-weight: 100;
+            }
+        }
+
+        .About_desc {
+            p {
+                font-size: 1.2vw;
+                color: #48484888;
+                padding-bottom: 20px;
+            }
+
+            h1 {
+                font-family: "rene-bieder-milliard-medium";
+                font-size: 2.8vw;
+                color: #D95103;
+                font-weight: 800;
+            }
+
+            h2 {
+                font-size: 2.8vw;
+                font-weight: 900;
+            }
+        }
+
+    }
+
+    .image_box {
+        position: relative;
+
+        &::after {
+            content: "";
+            height: 400px;
+            background: #0C6967;
+            width: 400px;
+            display: flex;
+            position: absolute;
+            top: 150px;
+            right: 25px;
+            border-radius: 100%;
+            z-index: -9;
+
+            &::after {
+                content: "";
+                width: 200px;
+                height: 200px;
+                background: radial-gradient(#F5F6F7 22%, transparent 25%);
+                background-size: 25px 25px;
+                background-position: 0px 70px;
+                position: absolute;
+                left: 0px;
+                top: 50px;
+                z-index: -9;
+            }
+        }
+
+        &::before {
+            content: "";
+            width: 200px;
+            height: 200px;
+            // background: radial-gradient(#eeeeee 22%, transparent 25%);
+            background: radial-gradient( #F5F6F7 22%, transparent 25%);
+            background-size: 25px 25px;
+            background-position: 0px 70px;
+            position: absolute;
+            left: -50px;
+            top: 20%;
+            z-index: -9;
+        }
+
+        .span {
+            height: 550px;
+            width: 450px;
+            display: flex;
+            position: relative;
+            /* background: rebeccapurple; */
+            justify-content: center;
+            overflow: hidden;
+            border-radius: 0 0 100% 100%;
+
+            img {
+                height: 550px;
+            }
+        }
+
+    }
+}

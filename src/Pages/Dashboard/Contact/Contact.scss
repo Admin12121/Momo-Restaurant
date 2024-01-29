@@ -1,0 +1,273 @@
+
+@font-face {
+    font-family: 'rene-bieder-milliard-light';
+    src: url('../../../assets/Rene-Bieder-Milliard-Light.otf') format('opentype');
+}
+.Contact_wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 64px;
+    gap: 25px;
+    font-family: "rene-bieder-milliard-medium";
+
+
+
+    .COntact_heading {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 8px;
+
+        h1 {
+            span {
+                color: #D95103;
+            }
+        }
+
+        p {
+            color: #0C6967;
+        }
+    }
+
+    .Contact_details_form {
+        width: 80%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        padding: 20px;
+        gap: 40px;
+        border-radius: 24px;
+        box-shadow: 0px 0.221px 2.795px 0px rgba(0, 0, 0, 0.01), 0px 0.532px 6.717px 0px rgba(0, 0, 0, 0.02), 0px 1.002px 12.647px 0px rgba(0, 0, 0, 0.03), 0px 1.787px 22.56px 0px rgba(0, 0, 0, 0.03), 0px 3.342px 42.195px 0px rgba(0, 0, 0, 0.04), 0px 8px 101px 0px rgba(0, 0, 0, 0.05);
+
+        .Contact_details {
+            width: 40%;
+            display: flex;
+            padding: 32px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 75px;
+            align-self: stretch;
+            background: #0C6967;
+            border-radius: 16px;
+            color: #fff;
+            font-size: .8vw;
+
+            .content_wrapped_in {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 25px;
+                align-self: stretch;
+
+                .header_title {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 6px;
+                    align-self: stretch;
+
+                    h1 {
+                        display: flex;
+                        gap: 8px;
+                        align-items: center;
+                        font-size: 20px;
+                        font-weight: 100;
+
+                        span {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-size: 1vw;
+                        }
+                    }
+
+                    p {
+                        font-family: "bariol-italic";
+                        font-size: 15px;
+                    }
+                }
+
+                .Contacts {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 10px;
+                    font-weight: 100;
+
+                    .number_wrapper {
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: row;
+                        gap: 40px;
+
+                        .Mobile {
+                            display: flex;
+                            align-items: flex-start;
+                            flex-direction: column;
+                            gap: 8px;
+
+                            h2 {
+                                display: flex;
+                                gap: 8px;
+                                font-size: 15px;
+                                font-weight: 100;
+                            }
+                        }
+
+                        .Landline {
+                            display: flex;
+                            align-items: flex-start;
+                            flex-direction: column;
+                            gap:8px;
+
+                            h2 {
+                                display: flex;
+                                gap: 4px;
+                                font-size: 15px;
+                                font-weight: 100;
+                            }
+                        }
+                    }
+                }
+
+                .Service_Time {
+                    display: flex;
+                    align-items: flex-start;
+                    flex-direction: column;
+
+                    .content {
+                        display: flex;
+                        gap: 20px;
+
+                        h2 {
+                            font-size: 15px;
+                            font-weight: 100;
+                        }
+                        .ddrtrt{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 8px;
+                            .mrt {
+                                font-family: "bariol-italic";
+                            }
+                            
+                        }
+                    }
+                }
+
+            }
+
+            .social_network {
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 15px;
+                font-family: "rene-bieder-milliard-light";
+                h1{
+                    font-style: italic;
+                    font-weight: 100;
+                }
+
+                .logo_wrapper {
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 20px;
+                    font-size: 2vw;
+                }
+            }
+        }
+
+       
+    }
+
+    .contact_form{
+        display: flex;
+        padding: 40px 24px;
+        flex-direction: column;
+        gap: 15px;
+        flex: 1 0 0;
+        width: 60%;
+        height: 100%;
+        span{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        label{
+            font-family: "rene-bieder-milliard-light";
+        }
+        input{
+            display: flex;
+            height: 45px;
+            padding: 16px 10px;
+            align-items: center;
+            align-self: stretch;
+            border-radius: 8px;
+            width: 100%;
+            border: 1px solid  #DFE2E6;
+        }
+        .user_name{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            
+            .hdr{
+                width: 50%;
+            }
+        }
+        .input-group{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            select{
+                display: flex;
+                height: 50px;
+                padding: 16px 10px;
+                align-items: center;
+                align-self: stretch;
+                border-radius: 8px;
+                width: 100%;
+                color: #888888;
+                border: 1px solid  #DFE2E6;
+                .option{
+                    display: flex;
+                    height: 50px;
+                    padding: 16px 0;
+                    align-items: center;
+                    align-self: stretch;
+                    border-radius: 8px;
+                    width: 100%;
+                    border: 1px solid  #DFE2E6;
+                }
+            }
+        }
+        textarea{
+            display: flex;
+            height: 100px;
+            padding: 16px 10px;
+            align-items: center;
+            align-self: stretch;
+            border-radius: 8px;
+            width: 100%;
+            border: 1px solid  #DFE2E6;
+        }
+        button {
+            display: flex;
+            width: 40%;
+            border: none;
+            color: #fff;
+            padding: 18px 22px;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            border-radius: 100px;
+            background: #D95103;
+        }
+    }
+}
